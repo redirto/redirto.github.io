@@ -1,4 +1,4 @@
-let delaySec = 5;
+let delaySec = 3; //Здесь задаётся время ожидания.
 
 let changeLabel = function(num) {
 	cmd = function() {
