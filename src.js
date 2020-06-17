@@ -1,5 +1,6 @@
 let delaySec = 3; //Здесь задаётся время ожидания.
 
+document.getElementById('btn').innerHTML = '<a href="#" onclick="submit()">Нажмите</a> для перехода без ожидания.'
 let changeLabel = function(num) {
 	cmd = function() {
 		document.getElementById('rtext').innerHTML = "Вы будете перенаправлены на нужную страницу в течении " + String(num) + " секунд..."
